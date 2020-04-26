@@ -33,7 +33,7 @@ To use block quotes, put this simple \> (greater than) in front of the phrase.
 
 \> Long Long ago,there is a temple upon the monutain  
 This will look like
-> Long Long ago,there is a temple upon the monutain.
+> Long Long ago,there is a temple upon the monutain.  
 
 If you want to use bolckquotes in multiple lines. Use \> in each line, even its a blank line.
 
@@ -45,7 +45,8 @@ Such texts will display like
 >
 > An old man lives in the temple.
 
-Italics, bold and links all can be used in blcokquotes.
+Italics, bold and links all can be used in blcokquotes.  
+Use \>\> for nested bolckquotes
 
 ## Lists
 There are two types of lists, unordered and ordered.  
@@ -59,10 +60,11 @@ There are two types of lists, unordered and ordered.
  * Tea 
 
 To create an ordered list, just preface with numbers.  
-\1. Milk  
-\2. Water  
-\3. Tea  
+1. Milk  
+2. Water  
+3. Tea  
 will display as
+
 
 1. Milk
 2. Water
@@ -103,6 +105,28 @@ It will look as
 This is line one.  
  
 This is line two.
+
+
+## Code
+To denote a word or phrase as code, enclose it in ``.  
+\`i++\` displays as `i++`
+
+In extended Markdown, you can ues ``` to enclose codes in multiple lines.
+
+\```java  
+System.out.println("hello");  
+\```  
+
+It looks as (java is optional after \```. It only provides syntax highlighting)
+
+```java
+System.out.println("hello");
+```
+
+## Escape
+
+Use backslash (\) to escape special characters, like: \*, \`, \[, \(, \#.
+
 
 Reference
 1. [markdowntutorial](https://www.markdowntutorial.com/lesson/1/)
