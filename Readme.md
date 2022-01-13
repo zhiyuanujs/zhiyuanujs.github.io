@@ -7,3 +7,7 @@ I will start learning computer science step by step.
 4. Database
 
 ![Haapy new year](https://github.com/zhiyuanujs/skeleton-sp18/blob/master/hw2/outputFiles/greeting57.png)
+
+
+Deployed website:
+1. [forkify](https://forkify-zhiyuan.netlify.app/)
